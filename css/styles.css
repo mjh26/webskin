@@ -1,16 +1,36 @@
-.body {
+:root {
+    --siteburgundy: rgb(130, 0, 40);
+}
+
+body {
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: beige;
 }
 
 header {
-    background-color: rgb(rgb(227, 149, 149), rgb(174, 230, 174), rgb(190, 190, 255));
-
+    background-color:var(--siteburgundy);
+    color: aliceblue;
+    line-height: 1.4rem;
+    font-size: 0.8em;
 }
 
-article {
+article, aside {
     margin-left: 2rem;
+}
+
+aside {
+    background-color: rgb(240, 230, 220);
+    padding-left: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.25em;
+}
+
+.secondbox {
+    background-image: url("../media/hands.jpg");
+    background-size: cover;
+    width: 90vw;
+    height: 60vw;
 }
 
 h1 {
@@ -21,11 +41,19 @@ h1 {
 
 .ingress {
     font-weight: 700;
-    color: pink;
+    color: orange;
 }
 
 aside > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     font-size: larger;
+}
+
+footer > div {
+    margin: 2rem;
+    margin-bottom: 0.2rem;
+    padding: 0.4rem;
+    border-style: dashed;
+    font-size: smaller;
 }
