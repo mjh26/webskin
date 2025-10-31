@@ -1,3 +1,31 @@
 .body {
-    background-color:#eec0c8;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+header {
+    background-color: rgb(rgb(227, 149, 149), rgb(174, 230, 174), rgb(190, 190, 255));
+
+}
+
+article {
+    margin-left: 2rem;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.ingress {
+    font-weight: 700;
+    color: pink;
+}
+
+aside > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: larger;
 }
